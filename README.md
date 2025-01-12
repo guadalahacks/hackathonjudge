@@ -14,18 +14,18 @@ python3 -m venv venv
 or
 py -m venv venv
 
-4. Activate virtual enviroment:
-Windows: venv\Scripts\activate
+4. Activate virtual enviroment: \
+Windows: venv\Scripts\activate \
 macOS/Linux: source venv/bin/activate
 
-If script execution is disabled:
-Windows:
-    - Open PowerShell as an administrator.
-    - Run the following command to set the execution policy to allow scripts to run:
-        Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+**If script execution is disabled:** \
+Windows: \
+    - Open PowerShell as an administrator. \
+    - Run the following command to set the execution policy to allow scripts to run: \
+        Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser \
     - Confirm the change by typing Y and pressing Enter.
 
-5. Install requirements
+5. Install requirements \
 pip install -r requirements.txt
 
 **For testing**
